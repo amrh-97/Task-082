@@ -1,0 +1,106 @@
+#sec__1 .sec1__txt {
+    animation: leftright 1s linear;
+}
+
+#sec__3.show_animate .sec3__txt {
+    animation: leftright 1s linear;
+}
+
+#sec__3.show_animate .sec3__img {
+    animation: rightleft 1s linear;
+}
+
+#sec__4.show_animate .sec4__content {
+    animation: topbottom 1s linear;
+}
+
+#sec__5.show_animate .product__list:first-of-type {
+    animation: leftright 1s linear;
+}
+
+#sec__5.show_animate .product__list:last-of-type {
+    animation: rightleft 1.5s linear;
+}
+
+#sec_6.show_animate .sec6__img {
+    animation: leftright 1s linear;
+}
+
+#sec_6.show_animate .sec6__txt {
+    animation: rightleft 1s linear;
+}
+
+#sec__7.show_animate .sec7__txt {
+    animation: leftright 1s linear;
+}
+
+#sec__7.show_animate .__reason {
+    animation: leftright 1.5s linear;
+}
+
+#sec__7.show_animate .sec7__img {
+    animation: rightleft 1s linear;
+}
+
+#sec__8.show_animate .sec8__txt {
+    animation: leftright 1s linear;
+}
+
+#sec__9.show_animate .contact__form {
+    animation: leftright 1s linear;
+}
+
+#sec__9.show_animate .contact__time {
+    animation: rightleft 1s linear;
+}
+
+
+@keyframes rightleft {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes leftright {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes leftright {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes topbottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
