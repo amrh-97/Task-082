@@ -26,6 +26,7 @@
         align-items: center;
         display: none;
         animation: navMenuAnimation 0.6s;
+        z-index: 100;
     }
 
     .active .mainheader__nav {
