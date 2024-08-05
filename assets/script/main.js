@@ -9,7 +9,7 @@ let navShowHide = navIcon.addEventListener('click', () => {
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzqTvQAiHir9hEHrox_CGLPjw0tzuypY8Hq-0Vavk01kVpbdVl84hlEgEKoDtS-k_Mc/exec'
 
-const form = document.forms['contact-form']
+const form = document.forms['order__from']
 
 form.addEventListener('submit', e => {
   e.preventDefault()
